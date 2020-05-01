@@ -78,7 +78,8 @@ ul {
 .container__header-ShowCase {
     width: 100%;
     height: 550px;
-    background: url(./img/showcase2.jpg) no-repeat center center/cover;
+    /* background: url(/img/showcase2.jpg) no-repeat center center/cover; */
+    background: url(https://raw.githubusercontent.com/anbreaker/prototypeWebTechNews/master/img/showcase2.jpg) no-repeat center center/cover;
     padding: 20px;
     padding-bottom: 50px;
     margin-bottom: 20px;
@@ -141,7 +142,8 @@ ul {
 .banner-one {
     width: 100%;
     height: 300px;
-    background: url(./img/tech-red.jpg) no-repeat center center/cover;
+    /* background: url(/img/tech-red.jpg) no-repeat center center/cover; */
+    background: url(https://raw.githubusercontent.com/anbreaker/prototypeWebTechNews/master/img/tech-red.jpg) no-repeat center center/cover;
     margin-bottom: 40px;
 }
 
@@ -159,7 +161,8 @@ ul {
 .banner-two {
     width: 100%;
     height: 350px;
-    background: url(./img/image-five.jpg) no-repeat center center/cover;
+    /* background: url(/img/image-five.jpg) no-repeat center center/cover; */
+    background: url(https://raw.githubusercontent.com/anbreaker/prototypeWebTechNews/master/img/image-five.jpg) no-repeat center center/cover;
     margin-bottom: 40px;
 }
 

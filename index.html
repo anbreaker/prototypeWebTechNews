@@ -12,6 +12,10 @@
         <title>TechNews</title>
     </head>
     <body>
+        <div class="btn-menu" id="btn-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
         <div class="container">
             <nav class="container__nav">
                 <img
@@ -19,30 +23,33 @@
                     alt="TechNews LOGO"
                     class="container__nav--img-brand"
                 />
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Web Development</a>
+                <ul class="container__menu show" id="container__menu">
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Artificial Inteligent</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Blockchain</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Web Development</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Machine learning</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Quantum computing</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">Start Up</a>
+                    </li>
+                    <li class="container__menu--li">
+                        <a href="#" class="container__menu--href">More</a>
+                    </li>
                 </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Blockchain</a>
-                </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Artificial Inteligent</a>
-                </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Machine learning</a>
-                </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Quantum computing</a>
-                </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">Start Up</a>
-                </ul>
-                <ul class="container__menu">
-                    <a href="#" class="container__menu--href">More</a>
-                </ul>
+
                 <ul class="container__menu-right">
                     <li>
-                        <a href="#"><i class="fas fa-search"></i> </a>
+                        <a href="#"><i class="container__menu-right--li fas fa-search"></i> </a>
                     </li>
                 </ul>
             </nav>
@@ -314,5 +321,7 @@
             <h3 class="footer__title">TechNews</h3>
         </footer>
         <script src="https://kit.fontawesome.com/055f901897.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
